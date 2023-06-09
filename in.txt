@@ -1,0 +1,35 @@
+Comment: Sample program in TINY language � computes factorial
+ReservedWord:read
+Identifier:x
+Comment:input an integer 
+ReservedWord:if
+Number:0
+Special Symbol:<
+Identifier:x
+ReservedWord:then
+Comment: don�t compute if x <= 0 
+Identifier:fact
+Special Symbol::
+Number:1
+Special Symbol:;
+ReservedWord:repeat
+Identifier:fact
+Special Symbol::
+Identifier:fact
+Special Symbol:*
+Identifier:x
+Special Symbol:;
+Identifier:x
+Special Symbol::
+Identifier:x
+Special Symbol:-
+Number:1
+ReservedWord:until
+Identifier:x
+Special Symbol:=
+Number:0
+Special Symbol:;
+ReservedWord:write
+Identifier:fact
+Comment: output factorial of x 
+ReservedWord:end

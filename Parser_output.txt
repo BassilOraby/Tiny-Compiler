@@ -1,0 +1,81 @@
+program
+stmt_sequence
+statment
+read-stmt
+ID
+;
+statment
+if-stmt
+exp
+simple exp
+term
+factor
+Number
+comparison cons
+simple exp
+term
+factor
+ID
+then
+stmt_sequence
+statment
+assign-stmt
+ID
+:=
+exp
+simple exp
+term
+factor
+Number
+;
+statment
+repeat-stmt
+stmt_sequence
+statment
+assign-stmt
+ID
+:=
+exp
+simple exp
+term
+factor
+ID
+mulop
+factor
+ID
+;
+statment
+assign-stmt
+ID
+:=
+exp
+simple exp
+term
+factor
+ID
+add-cons
+term
+factor
+Number
+; not found
+until
+exp
+simple exp
+term
+factor
+ID
+comparison cons
+simple exp
+term
+factor
+Number
+;
+statment
+write-stmt
+exp
+simple exp
+term
+factor
+ID
+; is not found
+end
